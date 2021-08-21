@@ -26,7 +26,7 @@ body{
 h4{
     color: grey;
     font-size: 20px;
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: /*'Libre Franklin',*/comic sans MS;
     /* font-weight: 700; */
     width: 100%;
     margin-top: 10px;
@@ -40,7 +40,7 @@ strong{
 h5{
     margin-top: -20px;
     margin-bottom: 20px;
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: /*'Libre Franklin',*/ comic sans MS;
     font-weight: 600;
     color: black;
     font-size: 12.5px;
@@ -125,11 +125,11 @@ input{
     height: 35px;
     width: 40%;
     padding-left: 15px;
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: comic sans MS;
 
 }
 button{
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: comic sans MS;
     width: 20%;
     height: 35px;
     border-radius: 20px;
@@ -149,7 +149,7 @@ input:focus{
     border: none;
 }
 p{
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: comic sans MS;
     font-weight: 400;
     font-size: 12px;
 }

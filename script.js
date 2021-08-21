@@ -18,6 +18,7 @@ function errorMessage() {
     else if(email===""){
         error.textContent = "Whoops! It looks like you forgot to add your email"
         error.style.color = "red"
+        
         document.getElementById("email1").style.border= "solid 1px red"
                
     }
