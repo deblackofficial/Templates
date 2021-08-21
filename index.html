@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <title>PING</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="header">
+            <img src="./images/logo.svg" class="ping" alt=""> <br>
+            <h4>We are launching <strong>soon!</strong></h4>
+            <h5>Subscribe and get notified</h5>
+            <form action="#" name="form1">
+            <input type="text" name="text1" id="email1" placeholder="Your email address.."> 
+            <button id="button" onclick="errorMessage()" >Notify Me</button>
+            <br><div class="error-div" id="error-div">
+                <span id="error"></span>
+            </div>
+            </form>
+        </div>
+        <div class="part2" id="part2">
+            <img class="dashpic" src="./images/illustration-dashboard.png" alt="">
+        </div>
+        <div class="footer">
+            <div class="logo"><ion-icon class="icon" name="logo-facebook"></ion-icon></div>
+            <div class="logo"><ion-icon class="icon" name="logo-twitter"></ion-icon></div>
+            <div class="logo"><ion-icon class="icon" name="logo-instagram"></ion-icon></div>
+        </div>
+        <div class="copy">
+            <p>@copyrightPing. All rights reserved.</p>
+        </div>
+    </div>
+     <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
